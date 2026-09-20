@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: jyothsnav/k8sfirst:appimage
+          image: jyothsnav/socialmediaapp:appimage
           ports:
             - containerPort: 8080
       imagePullSecrets:
